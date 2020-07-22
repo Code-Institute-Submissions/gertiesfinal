@@ -9,6 +9,9 @@
     font-family:'Open Sans', 'Helvetica Neue', sans-serif
   }
 
-  div {
-      
+  #cf {
+    position:relative;
+    height: 281px;
+    width: 450px;
   }
+  
