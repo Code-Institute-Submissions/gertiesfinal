@@ -14,16 +14,19 @@
 body {
     background-color: white;
     font-family:'Open Sans', 'Helvetica Neue', sans-serif
-
   }
 
 section, .list-group-item {
   background-color: #ffe7e5;
-
 }
 
-h5, h6, h4, h2, address, strong, i, div .btn{
+h5, h6, h4, h2, address, strong, i, div .btn .card .text-center{
   color: #3c4358;
+}
+
+.newanchor {
+  color: #3c4358;]
+  height: 200%;
 }
 
 .placeholder, textarea {
