@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" type="image/jpg" href="img/Gertie-icon.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="..plugins/bootstrap.min.css">
@@ -23,20 +24,20 @@
           
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown active">
                     <a class="nav-link dropdown-toggle" href="menu.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Menu
                     </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="menu.html">Cakes and Pastries</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#breakfast">Breakfast</a>
-                    <a class="dropdown-item" href="#lunch">Lunch</a>
-                    <a class="dropdown-item" href="#dinner">Dinner</a>
-                </div>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#breakfast">Breakfast</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#lunchdinner">Lunch & Dinner</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#cakepastry">Cakes and Pastries</a>
+                  </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Delivery</a>
@@ -70,62 +71,81 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-sm">
+        <div class="col-sm">
           <ul class="list-group list-group-flush">
-          <li class="list-group-item"><h3 style="text-align: left;">Breakfast</h3>
-            <div class="card text-left">
+            <li class="list-group-item" id="breakfast"><h4 style="text-align: center;">Breakfast</h4>
+            <div class="card text-center">
               <img src="img/food-coffee-breakfast.jpg" class="card-img-top" alt="breakfast">
               <div class="card-body">
             </div>
           </li>
-          <li class="list-group-item">Baked beans and Egg with coffee = &#x20B1 24</li>
-          <li class="list-group-item">Pandesal (12pcs) = &#x20B1 24</li>
-          <li class="list-group-item">Tapsilog with rice = &#x20B1 100</li>
-          <li class="list-group-item">Cheese bread (6pcs) = &#x20B1 24</li>
-          <li class="list-group-item">Tsokolate de Batirol = &#x20B1 24</li>
-          <li class="list-group-item">Arroz Caldo = &#x20B1 24</li>
+          <li class="list-group-item">Baked beans and Egg <br>with coffee &#x20B1 24</li>
+          <li class="list-group-item">Pandesal (12pcs) &#x20B1 24</li>
+          <li class="list-group-item">Tapsilog with rice &#x20B1 100</li>
+          <li class="list-group-item">Cheese bread (6pcs) &#x20B1 24</li>
+          <li class="list-group-item">Tsokolate de Batirol &#x20B1 24</li>
+          <li class="list-group-item">Arroz Caldo &#x20B1 24</li>
           </ul>
         </div>
 
         <div class="col-sm">
           <ul class="list-group list-group-flush">
-          <li class="list-group-item"><h3 style="text-align: left;">Lunch & Dinner</h3>
-            <div class="card text-left">
+          <li class="list-group-item" id="lunchdinner"><h4 style="text-align: center;">Lunch & Dinner</h4>
+            <div class="card text-center">
               <img src="img/pasta-tomato-basil.jpg" class="card-img-top" alt="pasta-tomato-basil">
               <div class="card-body">
             </div>
           </li>
-          <li class="list-group-item">Pasta with tomato and basil = &#x20B1 80</li>
-          <li class="list-group-item">Chicken Asado with rice = &#x20B1 100</li>
-          <li class="list-group-item">Chopsuey with rice = &#x20B1 100</li>
-          <li class="list-group-item">Sizzling Sisig with rice = &#x20B1 150</li>
-          <li class="list-group-item">Lumpiang Shanghai with rice  = &#x20B1 180</li>
-          <li class="list-group-item">Pancit Bilao  = &#x20B1 800</li>
+          <li class="list-group-item">Pasta with tomato and basil <br> &#x20B1 80</li>
+          <li class="list-group-item">Chicken Asado with rice <br> &#x20B1 100</li>
+          <li class="list-group-item">Chopsuey with rice <br> &#x20B1 100</li>
+          <li class="list-group-item">Sizzling Sisig with rice<br>&#x20B1 150</li>
+          <li class="list-group-item">Lumpiang Shanghai with rice <br>&#x20B1 180</li>
+          <li class="list-group-item">Pancit Bilao &#x20B1 800</li>
           
           </ul>
         </div>
 
         <div class="col-sm">
           <ul class="list-group list-group-flush">
-          <li class="list-group-item"><h3 style="text-align: left;">Cakes & Pastries</h3>
-            <div class="card text-left">
+          <li class="list-group-item" id="cakepastry"><h4 style="text-align: center;">Cakes & Pastries</h4>
+            <div class="card text-center">
               <img src="img/baked-pastries.jpg" class="card-img-top" alt="pastries">
               <div class="card-body">
             </div>
           </li>
           <li class="list-group-item"><strong>Pastries</strong></li> 
-          <li class="list-group-item">Sylvannas (6pcs) = &#x20B1 800</li>
-          <li class="list-group-item">Cookies (12pcs) = &#x20B1 500</li>
-          <li class="list-group-item">Pulvoron (1 jar) = &#x20B1 300</li>
-          <li class="list-group-item">Ube Ensaimada Big = &#x20B1 180</li>
-          <li class="list-group-item">Ube Roll and Ube Halaya (set) = &#x20B1 1,000</li> 
+          <li class="list-group-item">Sylvannas (6pcs) &#x20B1 800</li>
+          <li class="list-group-item">Cookies (12pcs) &#x20B1 500</li>
+          <li class="list-group-item">Ube Ensaymada Big &#x20B1 180</li>
+          <li class="list-group-item">Ube Roll and Ube Halaya (set)<br> &#x20B1 1,000</li> 
           <li class="list-group-item"><strong>Cakes</strong></li> 
-          <li class="list-group-item">Celebration cake with customizable dedication = from &#x20B1 1,000</li>
-          <li class="list-group-item">Choco Dulce de Leche = from &#x20B1 1,800</li>
-          <li class="list-group-item">Tres Leches = from &#x20B1 1,200</li>
+          <li class="list-group-item">Celebration cake with customizable dedication<br>from &#x20B1 1,000</li>
+          <li class="list-group-item">Choco Dulce de Leche <br> &#x20B1 1,800</li>
+          <li class="list-group-item">Tres Leches  &#x20B1 1,200</li>
+          <li class="list-group-item">Brazo de Mercedes <br> &#x20B1 1,200</li>
+
 
           </ul>
         </div>
+
+        <div class="col-sm">
+          <ul class="list-group list-group-flush">
+          <li class="list-group-item" id="snacks"><h4 style="text-align: center;">Snacks</h4>
+            <div class="card text-center">
+              <img src="img/flan.jpg" class="card-img-top" alt="flan">
+              <div class="card-body">
+            </div>
+          </li>
+          <li class="list-group-item">Empanaditas (6pcs) = &#x20B1 200</li>
+          <li class="list-group-item">Egg pie = &#x20B1 80</li>
+          <li class="list-group-item">Pichi Pichi = &#x20B1 100</li>
+          <li class="list-group-item">Okoy= &#x20B1 180</li>
+          <li class="list-group-item">Yema roll = &#x20B1 400</li> 
+          <li class="list-group-item">Leche Flan = &#x20B1 400</li> 
+
+          </ul>
+        </div> 
 
         </div>
       </div> 
@@ -135,18 +155,18 @@
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <h2 style="text-align: left">Available for pick up and delivery!</h2>
+          <h2 style="text-align: left">Our location</h2>
           <address>
             Gertie's Bakeshop and Fastfood Highway<br>
             (In front of SM City Tarlac)<br>
-            <i class="fas fa-phone"></i> (045) 493-32-05<br>
-            <i class="fas fa-mobile-alt"></i> 0999-682-0099
+            <i class="fas fa-phone">&nbsp;</i> (045) 493-32-05<br>
+            <i class="fas fa-mobile-alt">&nbsp;&nbsp;</i> 0999-682-0099
             <br>
             <br>      
             Gertie's Bakeshop and Fastfood Cut-cut<br>
             (Cut-cut 1st, Romulo Blvd.)<br>
-            <i class="fas fa-phone"></i> (045) 982-01-29 / 493-39-93<br>
-            <i class="fas fa-mobile-alt"></i> 0933-868-4998<br>
+            <i class="fas fa-phone">&nbsp;</i> (045) 982-01-29 / 493-39-93<br>
+            <i class="fas fa-mobile-alt">&nbsp;&nbsp;</i> 0933-868-4998<br>
           </address>
 
         </div>
@@ -154,26 +174,40 @@
     <!--form-->
     <div class="col-sm">
         <form>
-          <h2 style="text-align: left">Place order here</h2>
-          <div class="form-group">
-          <input type="name" class="form-control" id="exampleInputPassword1" placeholder="Name">
+          <h2 style="text-align: left">Message us</h2>
+          <small class="form-text text-muted">We'll never share your details with anyone else.</small><br>
+          <div class="form-row">
+            <div class="col-sm">
+              <input type="text" class="form-control" placeholder="Full name">
+            </div>
+            <div class="w-100"></div><br> 
+            <div class="col-sm">
+              <input type="text" class="form-control" placeholder="Contact">
+            </div>
+            <div class="w-100"></div><br> 
+            <div class="col">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Address"></textarea>
+            </div>
+            <div class="w-100"></div><br> 
+            <div class="col-sm">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enquiries / Orders"></textarea>
+            </div>
+            <div class="w-100"></div><br> 
+            <div class="col-sm">
+              <select class="form-control">
+                <option>Select your preference</option>
+                <option>For pick up</option>
+                <option>For delivery</option>
+                <option>Enquiry only</option>
+              </select>  
+            </div>
+            <div class="w-100"></div><br> 
+            <p><a href="index.html" class="button">Submit</a></p>  
           </div>
-          <div class="form-group">
-          <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Mobile / Telephone">
-           <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enquiries / Orders"></textarea>
-          </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Sign me up for newsletter</label>
-          </div>
-          <a href="https://francesjgonzales.github.io/gerties-master/" class="submitbutton">Submit</a>  
         </form>
     </div>
       </div>
-    </div> 
+    </div>
 
     <!--instagram feed-->
     <div class="container">
@@ -188,8 +222,8 @@
         <small>2020 Copyright Gerties Bakeshop and Fastfood</small>
       </div>
         <div class="col-sm-2">
-          <a href="https://www.instagram.com/gertiesph/"><i class="fab fa-instagram fa-lg"></i>
-          <a href="https://www.tripadvisor.com.sg/Restaurant_Review-g298458-d16710720-Reviews-Gertie_s_Bakeshop_Fastfood-Tarlac_Tarlac_Province_Central_Luzon_Region_Luzon.html"><i class="fab fa-tripadvisor fa-lg"></i>
+          <a href="https://www.instagram.com/gertiesph/"><i class="fab fa-instagram fa-lg"></i>&nbsp;
+          <a href="https://www.tripadvisor.com.sg/Restaurant_Review-g298458-d16710720-Reviews-Gertie_s_Bakeshop_Fastfood-Tarlac_Tarlac_Province_Central_Luzon_Region_Luzon.html"><i class="fab fa-tripadvisor fa-lg"></i>&nbsp;
           <a href="hhttps://www.facebook.com/GertiesBakeshopFastfood"><i class="fab fa-facebook fa-lg"></i>
         </div>
       </div>
