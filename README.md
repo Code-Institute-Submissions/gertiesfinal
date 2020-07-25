@@ -3,7 +3,7 @@
 ## Demo
 A live demo of the finished project can be found [here](https://github.com/francesjgonzales/gertiesfinal).
 
-![Desktop Demo](https://github.com/francesjgonzales/gertiesfinal/master/readme/gerties-mock-up.gif)
+![Desktop Demo]()
 
 ---
 
@@ -84,6 +84,7 @@ Based on their current logo (refer to this link), the colours are yellow, red an
 - Product gallery
 
 #### Technologies Used
+
 
 List of tools I used for this website:
 - [Getbootstrap](https://getbootstrap.com/)
