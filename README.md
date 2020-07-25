@@ -1,41 +1,46 @@
 # Gerties Bakeshop
 
 ## Demo
-A live demo of the finished project can be found here.
+A live demo of the finished project can be found [here](https://github.com/francesjgonzales/gertiesfinal).
+
+![Desktop Demo]()
 
 ---
 
 ## Aim
-My aunt has a bakeshop in the Philippines called **Gerties**. She's running it for over 20 years now and has established her loyal customers. Her son set up a Facebook and Instagram accounts to extend their customer reach. I googled their shop and under Questions and Answers there were 3 questions asking for product price list and delivery.
+My aunt is running a bakeshop called **Gerties** for 20 years now. To get her shop up to date, her son set up a Facebook and Instagram accounts to extend their customer reach. I googled their shop and under Questions and Answers there were 3 questions asking for product price list and delivery.
 
 I'm proposing a website for them so they can reach out to potential new customers and hope to increase audience likes and engagement in their Facebook and Instagram. 
 
 ---
 ## UX
 ### Research and Strategy
-For research, my main basis of information are the following:
-1. Gerties' Facebook, Instagram & Tripadvisor accounts. (insert link to screenshot)
-2. Google reviews & questions and answers part. (insert link to screenshot)
+#### Stakeholder information:
+
+1. Gerties' [Facebook](https://www.facebook.com/GertiesBakeshopFastfood/), [Instagram](https://www.instagram.com/gertiesph/) & [Tripadvisor](https://www.tripadvisor.com.sg/Restaurant_Review-g298458-d16710720-Reviews-Gertie_s_Bakeshop_Fastfood-Tarlac_Tarlac_Province_Central_Luzon_Region_Luzon.html) accounts. 
+2. [Google](readme/gerties-google.png) reviews & questions and answers. 3
 3. Competitor's facebook account - [@CindysBakeryRestaurant](https://www.facebook.com/CindysBakeryRestaurant/?ref=py_c)
 
-I found out that:
-1. Competitor has a website with a high number of followers.
-2. Enquiries from Gerties' account are based on pricelists and delivery.
+#### I found out that:
 
-**Scope**
+1. Competitor has a website with a high number of followers.
+2. Enquiries from Gerties' social media accounts & google are based on pricelists and delivery.
+3. Information awareness is limited to per enquiry basis and no standard template.
+
+#### Scope
 
 1. External user’s goal: The users are new and existing customers who wants to get promotions, updates and possibly book for delivery or catering.
 2. Site owner’s goal: The owner is interested in maintaining existing customers and attracting new customers*.
 3. Potential features to include: to showcase product photos, menus, delivery, and information about the company.
 4. User goal: make them go to delivery or contact page for enquiry.
 
-**Structure**
+#### Structure
 
 I gathered key information that will be used for wireframing. This helped me out in organising and labeling the content efficiently to the users. Click here for your reference.
 
 For wireframing, I used keynote for low-fidelity and Adobe XD for high-fidelity (insert link to screenshots). Adobe XD, helped me when exporting assets to web-friendly sizes.
 
-**UI**
+#### UI
 
 Based on their current logo (refer to this link), the colours are yellow, red and lime green. I wanted to propose a whole new look of Gerties by focusing on the name, toning down the red and limiting the colours to be just red and dark grey for simplicity and clean look.*
 
@@ -52,7 +57,8 @@ Based on their current logo (refer to this link), the colours are yellow, red an
 
 ## Features
 
-The website will feature the following:
+#### The website will feature the following:
+
 1. Landing page has responsive nav buttons like Home, Menu, Delivery, Contact pages
    1. About us - a paragraph form of their history and what they do.
    2. Carousel - showcase latet promotion 
@@ -66,24 +72,47 @@ The website will feature the following:
 6. Order now buttons - when hovered it will change to black and when clicked, it will change to white.
    
  
-### Future implementation
+#### Future implementation
+
 - Shopping cart - for users to place orders.
 - Payment gateway - to support shopping cart. 
 - Pop-up version showing detailed information of each product when they click the product image or *Order now button.
-- Viber business pop up message - 
+- Pop up chat - for urgent response and faster enquiry. 
 
-### Features Left to Implement
-- 
+#### Features Left to Implement
+- Enhance animation
+- Product gallery
 
-## Technologies Used
+#### Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+List of tools I used for this website:
+- [Getbootstrap](https://getbootstrap.com/)
+   + The project uses **getbootstrap** to make the site responsive.
+- [Fontawesome] (https://fontawesome.com/) 
+   + The project uses **fontawesome** to add icons for contact and footer pages.
+- [Powr.io] (https://www.powr.io/) 
+   + The project uses **powr.io** to get more followers in shop's instagram account.
+- [Bootstrap’sJavaScript] (https://getbootstrap.com/)
+   + The project uses **Bootstrap's Javascript** to make animation work in carousel.
+- [JQuery]
+- [Markdown] (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis)
+   + The project uses **MarkdownCheatsheet** as quick reference for documenting readme file.
+- [Keynote]
+   + The project uses **Keynote** as UX research tool for documenting stakeholder's background, information architecture and low-fidelity mock up.
+- [AdobeXD] (https://www.adobe.com/sea/products/xd.html)
+   + The project uses **AdobeXD** as wireframing tool for creating medium-fidelity mock up and converting images for web.
+- [HTML5] For consistent rendering in every browser.
+- [LanguageAttribute] For translation tools to determine what rules to use.
+- [CSS3]
+- [MediaQuery] Added breakpoints for parts of the design that is different. 
+- [Illustrator] For tracing  Gertie's logo.
+ 
+---
 
 ## Testing
+I shared the github link to my family to test out the site. During the early development, I used my mobile phone to check whether it is responsive and spotted that there's an extra space in the width. I tried to 
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -118,11 +147,31 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://www.facebook.com/CindysBakeryRestaurant/?ref=py_c)
+
+- The product descriptions for cakes and pastries, breakfast, lunch, snacks and dinner were copied from the [GertiesTripadvisor](https://www.tripadvisor.com.sg/Restaurant_Review-g298458-d16710720-Reviews-Gertie_s_Bakeshop_Fastfood-Tarlac_Tarlac_Province_Central_Luzon_Region_Luzon.html)
+- The prices shown are not accurate and meant for visual purposes only. Actual prices can come on next stage of site development.
+- For quick reference on carousel animation, I watched Clever Techie's [Youtube] (https://www.youtube.com/watch?v=AvMl3StAju4) 
+- I referred to [w3schools.com] for currency symbol, animated buttons and text formatting. 
 
 ### Media
-- The photos used in this site were obtained from ...
+
+- The product photos used in this site were obtained from [Pexel](https://www.pexels.com/).
+   - Main-All day menu Lunch & Dinner Photo by William Choquette from Pexels
+   - Main-All day menu Breakfast Photo by Krisztina Papp from Pexels
+   - Main-Carousel Photo by Acharaporn Kamornboonyarush from Pexels
+   - Main-Carousel Photo by Ella Olsson from Pexels
+   - Main-Carousel Photo by energepic.com from Pexels
+   - Menu-Header Photo by Igor Ovsyannykov from Pexels
+   - Menu-Breakfast Photo by Julian Jagtenberg from Pexels
+   - Menu-Lunch & Dinner Photo by Lisa Fotios from Pexels
+   - Menu-Pastries Photo by Artem Beliaikin from Pexels
+   - Delivery-Breakfast Photo by Daria Shevtsova from Pexels
+   - Delivery-Lunch & Dinner Photo by Rajesh TP from Pexels
+   - Delivery-Cakes & Pastries Photo by Dmitry Zvolskiy from Pexels
+
+- The About us photo was obtained from Gertie's Bakeshop Instagram account.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- This website is inspired by my Aunt Gertie. 
+- To my husband who's been supportive of me.
