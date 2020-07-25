@@ -20,8 +20,13 @@ section, .list-group-item {
   background-color: #ffe7e5;
 }
 
-h5, h6, h4, h2, address, strong, i, div .btn .card .text-center{
+h5, h6, h4, address, strong, i, div .btn .card .text-center {
   color: #3c4358;
+}
+
+h3 {
+  font-weight: bold;
+  text-align: center;
 }
 
 .newanchor {
