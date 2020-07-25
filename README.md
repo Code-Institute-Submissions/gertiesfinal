@@ -104,11 +104,14 @@ List of tools I used for this website:
 - [HTML5] For consistent rendering in every browser.
 - [LanguageAttribute] For translation tools to determine what rules to use.
 - [CSS3]
-- [MediaQuery] Added breakpoints for parts of the design that is different 
-- [w3schools.com]
-   + The project uses **w3schools** as quick reference for 
+- [MediaQuery] Added breakpoints for parts of the design that is different. 
+- [Illustrator] For tracing  Gertie's logo.
  
+---
+
 ## Testing
+I shared the github link to my family to test out the site. During the early development, I used my mobile phone to check whether it is responsive and spotted that there's an extra space in the width. I tried to 
+
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
@@ -143,12 +146,31 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for cakes and pastries, menu for breakfast, lunch, snacks and dinner were copied from the [GertiesTripadvisor](https://www.facebook.com/CindysBakeryRestaurant/?ref=py_c)
+
+- The product descriptions for cakes and pastries, breakfast, lunch, snacks and dinner were copied from the [GertiesTripadvisor](https://www.tripadvisor.com.sg/Restaurant_Review-g298458-d16710720-Reviews-Gertie_s_Bakeshop_Fastfood-Tarlac_Tarlac_Province_Central_Luzon_Region_Luzon.html)
+- The prices shown are not accurate and meant for visual purposes only. Actual prices can come on next stage of site development.
+- For quick reference on carousel animation, I watched Clever Techie's [Youtube] (https://www.youtube.com/watch?v=AvMl3StAju4) 
+- I referred to [w3schools.com] for currency symbol, animated buttons and text formatting. 
 
 ### Media
+
 - The product photos used in this site were obtained from [Pexel](https://www.pexels.com/).
+   - Main-All day menu Lunch & Dinner Photo by William Choquette from Pexels
+   - Main-All day menu Breakfast Photo by Krisztina Papp from Pexels
+   - Main-Carousel Photo by Acharaporn Kamornboonyarush from Pexels
+   - Main-Carousel Photo by Ella Olsson from Pexels
+   - Main-Carousel Photo by energepic.com from Pexels
+   - Menu-Header Photo by Igor Ovsyannykov from Pexels
+   - Menu-Breakfast Photo by Julian Jagtenberg from Pexels
+   - Menu-Lunch & Dinner Photo by Lisa Fotios from Pexels
+   - Menu-Pastries Photo by Artem Beliaikin from Pexels
+   - Delivery-Breakfast Photo by Daria Shevtsova from Pexels
+   - Delivery-Lunch & Dinner Photo by Rajesh TP from Pexels
+   - Delivery-Cakes & Pastries Photo by Dmitry Zvolskiy from Pexels
+
 - The About us photo was obtained from Gertie's Bakeshop Instagram account.
 
 ### Acknowledgements
 
 - This website is inspired by my Aunt Gertie. 
+- To my husband who's been supportive of me.
