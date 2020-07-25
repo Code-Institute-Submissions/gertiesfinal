@@ -111,7 +111,7 @@ List of tools I used for this website:
 ---
 
 ## Testing
-I shared the github link to my family to test out the site. During the early development, I used my mobile phone to check whether it is responsive and spotted that there's an extra space in the width. I tried to 
+During the early development, I used my mobile phone to test whether the site is responsive in smaller devices. I also sent the reposit
 
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
